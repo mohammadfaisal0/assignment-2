@@ -1,0 +1,164 @@
+/* Font Link */
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+  main{
+    max-width: 1440px;
+    align-items: center;
+  }
+  *{
+    font-family: 'Work Sans';
+  }
+  /* ---------------------
+  Header Styles
+  ------------------------ */
+  ul{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .header nav{
+    display: flex;
+  }
+/*----------------------
+ architect group Styles 
+ -----------------------*/
+ .architect-group-title{
+    font-family: 'Work Sans';
+    font-size: 48px;
+    color: #131313;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 20px;
+ }
+ .architect-group-description{
+   
+    text-align: center;
+    line-height: 20px;
+    
+ }
+ .primary-btn{
+    font-size: 20px;
+    font-size: 600;
+    text-align: center;
+    color:  #FFFFFF;
+    width: 180px;
+    height: 54px;
+    border: 1px solid black;
+    background: #FF900E;
+    border-radius: 8px;
+    border-style: none;
+    margin-left:520px;
+    margin-bottom: 10px;
+ }
+.architect-group{
+    background: rgba(255, 144, 14, 0.1);
+    height: 800px;
+    width: 100%;
+}
+.architect-group-banner img{
+    height: 500px;
+    width: 700px;
+    margin-left: 280px;
+}
+/* explore group styles */
+.container{
+    display: flex;
+    gap: 25px;
+}
+.blog-title{
+     font-size: 45px;
+     font-weight: 500px;
+}
+.lite{
+    color: #727272;
+}
+.yellow{
+    color: #FF900E;
+}
+.blog-description{
+    color: #727272;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.explore .images .team .img{
+    width: 140px;
+    height: 140px;
+}
+/* ---------------------
+Architect Gallery Styles
+--------------------------*/
+.architect-gallery{
+    display: flex;
+}
+/* Some Fact Section Styles */
+.facts-title{
+    font-family: 'Work Sans';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 10px;
+
+}
+.facts-description{
+    color: #727272;
+    padding-bottom: 20px;
+}
+.facts-container{
+    display: flex;
+    gap: 40px;
+    margin-left: 300px;
+    margin-top: 20px;
+    align-content: center;
+}
+.content{
+    height: 150px;
+    width: 150px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding-top: 25px;
+    line-height: 0px;
+    
+}
+.content-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 0px;
+}
+.content-description{
+    color: #727272;
+    line-height: 0px;
+}
+
+/* Sponsor Section Styles */
+.our-sponsor{
+    text-align: center;
+}
+.section-title{
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.section-description{
+    color: #727272;
+    padding-bottom: 50px;
+}
+.sponsor-container{
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+    color: #727272;
+    mix-blend-mode: darken;
+}
+/* Footer Styles */
+footer{
+    height: 50px;
+    width: 900px;
+    color: #727272;
+    text-align: center;
+    background-color: plum;
+    padding-top: 10px;
+    margin-left: 200px;
+}
